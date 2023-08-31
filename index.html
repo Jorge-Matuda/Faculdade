@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faculdade</title>
-    <link rel="icon" type="image/png" sizes="16x16"  href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16"  href="assets/img/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <nav class="navbar">
         <div class="user-icon">
             <a href="https://ava.univille.br/account/MySpace.html" target="_blank" rel="noopener noreferrer">
-                <img src="user-icon.svg" alt="User Icon">
+                <img src="assets/img/user-icon.svg" alt="User Icon">
             </a>
         </div>
         <div class="logo">
             <a href="https://aluno.univille.br" target="_blank" rel="noopener noreferrer">
-                <img src="Logo Univille.svg" alt="Logo Univille" class="logo-image">
+                <img src="assets/img/logo-univille.svg" alt="Logo Univille" class="logo-image">
             </a>
         </div>
         <a href="https://univilleeduca.univille.br/FrameHTML/web/app/edu/PortalEducacional/#/financeiro" target="_blank" rel="noopener noreferrer">
@@ -33,72 +36,124 @@
         <h1>Matérias da Faculdade</h1>
         <div class="materias-grid">
             <a href="https://ava.univille.br/community/gere-ads.fdweb-2023-2" target="_blank" class="materia-box">
-                <p>FERRAMENTAS DE DESENVOLVIMENTO WEB [FDWEB] - GERE-ADS (2023-2)</p>
+                <p class="materia-title">FDWEB</p>
+                <br>
+                <p>FERRAMENTAS DE DESENVOLVIMENTO WEB (2023-2)</p>
             </a>
             <a href="https://ava.univille.br/community/gere-cti.pi7_ati-2023-2" target="_blank" class="materia-box">
-                <p>PROJETO INTEGRADOR [PI7_ATI] - GERE-CTI (2023-2)</p>
+                <p class="materia-title">PI7_ATI</p>
+                <br>
+                <p>PROJETO INTEGRADOR (2023-2)</p>
             </a>
             <a href="https://ava.univille.br/community/gere-ads.ihco-2023-2" target="_blank" class="materia-box">
-                <p>INTERFACE HUMANO-COMPUTADOR [IHCO] - GERE-ADS (2023-2)</p>
+                <p class="materia-title">IHCO</p>
+                <br>
+                <p>INTERFACE HUMANO-COMPUTADOR (2023-2)</p>
             </a>
             <!-- Adicione mais matérias conforme necessário -->
         </div>
     </div>
+    
     <div class="content">
         <h1>Matérias Finalizafas</h1>
-        <div class="materia-box finalized">
-            <p>	ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES [AOC] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 7.20</p>
+        <div class="finalized-container">
+            <div class="materia-box finalized">
+                <p class="materia-title">AOC</p>
+                <br>
+                <p>	ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES (2023-1)</p>
+                <br>
+                <p class="nota">Nota: 7.20</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">SIOP</p>
+                <br>
+                <p>	SISTEMAS OPERACIONAIS (2023-1)</p>
+                <br>
+                <p class="nota">Nota: 8.60</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">PDOE</p>
+                <br>
+                <p>	PRODUÇÃO DISCURSIVA: ORALIDADE E ESCRITA (2023-1)</p>
+                <br>
+                <p class="nota">Nota: 7.80</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">TOPESP</p>
+                <br>
+                <p>	TÓPICOS ESPECIAIS (2023-1)</p>
+                <br>
+                <p class="nota">Nota: 7.00</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">ALGO</p>
+                <br>
+                <p>	ALGORITMOS (2022-2)</p>
+                <br>
+                <p class="nota">Nota: 8.00</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">FRC</p>
+                <br>
+                <p>	FUNDAMENTOS DE REDES DE COMPUTADORES (2022-2)</p>
+                <br>
+                <p class="nota">Nota: 7.80</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">INOE</p>
+                <br>
+                <p>	INOVAÇÃO E EMPREENDEDORISMO	(2022-2)</p>
+                <br>
+                <p class="nota">Nota: 7.50</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">PROO</p>
+                <br>
+                <p>	PROGRAMAÇÃO ORIENTADA A OBJETOS (2022-2)</p>
+                <br>
+                <p class="nota">Nota: 6.75</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">PI1/AT</p>
+                <br>
+                <p>1 PROJETO INTEGRADOR (2023-1)</p>
+                <br>
+                <p class="nota">Nota: 9.40</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">PI2/AT</p>
+                <br>
+                <p>2 PROJETO INTEGRADOR (2023-1)</p>
+                <br>
+                <p class="nota">Nota: 9.00</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">PI3/AT</p>
+                <br>
+                <p>3 PROJETO INTEGRADOR (2022-2)</p>
+                <br>
+                <p class="nota">Nota: 9.20</p>
+            </div>
+            <div class="materia-box finalized">
+                <p class="materia-title">PI4/AT</p>
+                <br>
+                <p>4	PROJETO INTEGRADOR (2022-2)</p>
+                <br>
+                <p class="nota">Nota: 10.00</p>
+            </div>
+            <!-- Adicione mais matérias conforme necessário -->
         </div>
-        <div class="materia-box finalized">
-            <p>	SISTEMAS OPERACIONAIS [SIOP] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 8.60</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PRODUÇÃO DISCURSIVA: ORALIDADE E ESCRITA [PDOE] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 7.80</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PRODUÇÃO DISCURSIVA: ORALIDADE E ESCRITA [PDOE] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 7.80</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	TÓPICOS ESPECIAIS [TOPESP] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 7.00</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	ALGORITMOS [ALGO] - GERE-ADS (2022-2)</p>
-            <p class="nota">Nota: 8.00</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	FUNDAMENTOS DE REDES DE COMPUTADORES [FRC] - GERE-ADS (2022-2)</p>
-            <p class="nota">Nota: 7.80</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	INOVAÇÃO E EMPREENDEDORISMO	 [INOE] - GERE-ADS (2022-2)</p>
-            <p class="nota">Nota: 7.50</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PROGRAMAÇÃO ORIENTADA A OBJETOS	[PROO] - GERE-ADS (2022-2)</p>
-            <p class="nota">Nota: 6.75</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PROJETO INTEGRADOR	[PI1/AT] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 9.40</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PROJETO INTEGRADOR	[PI2/AT] - GERE-ADS (2023-1)</p>
-            <p class="nota">Nota: 9.00</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PROJETO INTEGRADOR	[PI3/AT] - GERE-ADS (2022-2)</p>
-            <p class="nota">Nota: 9.20</p>
-        </div>
-        <div class="materia-box finalized">
-            <p>	PROJETO INTEGRADOR	[PI4/AT] - GERE-ADS (2022-2)</p>
-            <p class="nota">Nota: 10.00</p>
-        </div>
-        <!-- Adicione mais matérias conforme necessário -->
     </div>
+    
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="assets/img/logo-univille.svg" alt="Logo Univille" class="footer-logo-image">
+        </div>
+        <div class="footer-text">
+            <p>Jorge Sadao dos Santos Matuda</p>
+            <p>Faculdade: UNIVILLE</p>
+        </div>
+    </footer>
+
 </body>
 </html>
